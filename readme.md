@@ -37,3 +37,8 @@ Deploy the bicep file
 az deployment group create -f ./deploy.bicep -g <resource group name>
 ```
 You will be asked for vm admin username and password, enter them.
+
+Delete resource
+```
+az group delete --name <resource group name> --yes --no-wait
+```
