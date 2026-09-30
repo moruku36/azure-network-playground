@@ -1,3 +1,11 @@
+# Azure Network Playground
+
+[English](readme.md) | [日本語](README.ja.md)
+
+Bicep-based Azure networking lab for generating HTTP traffic with Connection Monitor and collecting diagnostic logs in a shared Log Analytics workspace.
+
+---
+
 # azure network playground
 
 This repository stores Azure Bicep files that create an environment for checking the log output of Azure's network-based services.
